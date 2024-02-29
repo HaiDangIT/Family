@@ -716,16 +716,27 @@ img{
     color: white;
     font-size: 25px;
     font-weight: 10px;
-    padding: 12px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 18px;
+    padding-right: 18px;
+    
+
     cursor: pointer;
     
 }
 
-.js-modal-close > .close:hover
+.js-modal-close:hover
+{
+    background-color: red;
+}
+
+
+/* .js-modal-close > .close:hover
 {
     opacity: 0.8;
     color: rgb(255, 50, 50);
-}
+} */
 
 .modal-body
 {
