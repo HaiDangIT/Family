@@ -11,6 +11,7 @@
 
 html
 {
+    scroll-behavior: smooth;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -89,6 +90,7 @@ padding-right: 8px;
 .contact-content
 {
     margin-top: 48px;
+    padding-bottom: 100px;
 }
 
 .contact-info
@@ -121,7 +123,7 @@ padding-right: 8px;
     
 }
 
-.contact-form .form-submit-btn
+.contact-form .place-btn
 {
     background-color: rgb(253, 95, 95);
     color: white;
@@ -130,7 +132,15 @@ padding-right: 8px;
     float: right;
     border-radius: 5px;
     outline: none;
+    cursor: pointer;
 }
+
+.place-btn:hover
+{
+    opacity: 0.8;
+}
+
+
 
 .m-t-8
 {
@@ -397,10 +407,7 @@ img{
 
 
 
-#content
-{
 
-}
 
 /* About section */
 
@@ -415,6 +422,7 @@ img{
     
     text-align: center;
     padding: 64px 0;
+    
 
     
 }
@@ -466,7 +474,7 @@ img{
     
     
 }
-
+ 
 #content .member-name
 {
     margin-top: 60px;
@@ -484,6 +492,7 @@ img{
     margin-right: auto;
     border-radius: 8px;
     image-rendering: pixelated;
+  
 
 
 }
@@ -608,7 +617,7 @@ img{
     line-height: 1.4;
     
 }
-.place-buy-btn
+.-btn
 {
     background-color: rgb(253, 95, 95);
     color: white;
@@ -618,9 +627,10 @@ img{
     margin-top: 18px;
     border-radius: 5px;
     border: 1px solid;
+    cursor: pointer;
 }
 
-.place-buy-btn:hover
+.-btn:hover
 {
     opacity: 0.8;
     /* background-color: ;
@@ -650,10 +660,47 @@ img{
 
 }
 
-#footer
+/* Map section */
+
+.map-section img
 {
+    width: 100%;
+}
+
+.footer
+{
+    padding: 64px 16px;
+    text-align: center;
 
 }
+
+.icon-footer
+{
+    font-size: 24px;
+    color: rgba(0,0,0,0.5);
+    text-decoration: none;
+    letter-spacing: 4px;
+    
+}
+
+.icon-footer:hover
+{
+    opacity: 0.4;
+}
+
+.footer .copyright
+{
+    font-size: 15px;
+    padding: 15px;
+    color: rgba(0,0,0,0.5);
+}
+
+.footer .copyright a
+{
+    color: rgba(0,0,0,0.5);
+}
+
+/* Map section */
 
 .modal
 {
