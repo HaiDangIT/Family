@@ -721,7 +721,7 @@ img{
     
 }
 
-.js-modal-close:hover
+.js-modal-close > .close:hover
 {
     opacity: 0.8;
     color: rgb(255, 50, 50);
