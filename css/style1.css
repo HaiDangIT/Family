@@ -171,23 +171,19 @@ padding-right: 8px;
 
 /*Phan class cua ca web*/
 
-.main
-{
-
-}
 
 /*Duoi la css cua phan header*/
 
 #header
 {
     height: var(--height);
-    background-color: #11999E;
+    background-color: #3ca3a6;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
-    box-shadow: 0 0 10px rgba(0,0,0,0.3);
-    z-index: 1;
+    box-shadow: 0 0 12px rgba(0,0,0,0.4);
+    z-index: 2;
     
 }
 
@@ -254,12 +250,6 @@ padding-right: 8px;
 
 
 /*Duoi la lop gia cho the li co chua chu va the a ( nay la css cho chung toan bo )*/
-
-#nav li:hover a
-{
-    
-}
-
 
 
 /*Duoi day la css cho the cha a de absolute vao*/
@@ -354,7 +344,7 @@ padding-right: 8px;
 body
 {
   
-    background-color: rgba(254, 246, 228, 0.3);
+    background-color: rgb(255, 255, 255);
 }
 /* 
 img{
@@ -510,7 +500,7 @@ img{
 
 .tour-section
 {
-    background-color: #2f4f4f;
+    background-color: #295050;
 
 }
 
@@ -655,10 +645,6 @@ img{
 
 
 
-#container
-{
-
-}
 
 /* Map section */
 
@@ -701,6 +687,381 @@ img{
 }
 
 /* Map section */
+
+
+/* Mucsic section */
+
+.musical
+{
+    width: 100%;
+    background: url(./Slider/wallhaven-wevq5q.jpg) no-repeat top left;
+    background-size: cover;
+    height: 855px;
+    position: relative;
+    border: 5px solid rgba(254, 246, 228, 0.6);
+    
+    
+}
+
+.musical .nen-music
+{
+    width: 90%;
+    height: 680px;
+    background-color: rgba(98, 141, 130);
+    display: block;
+    position: absolute;
+    margin-left: 98px;
+    margin-top: 82.5px;
+    
+    box-sizing: border-box;
+    border-radius: 35px;
+    text-align: center;
+    border: 2px dashed whitesmoke;
+
+    
+}
+
+.musical .box-music
+{
+    width: 500px;
+    height: 550px;
+    background-color: #768c75;
+    border-radius: 25px;
+    margin-left: 100px;
+    box-sizing: border-box;
+    overflow: hidden;
+    color: white;
+    
+    position: absolute;
+    margin-bottom: 50px;
+    margin-top: 65px;
+    z-index: 1;
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+
+    
+
+}
+
+.playlist1
+{
+    height: 550px;
+    width: 1300px;
+    background-color: #FFFCEE;
+    float: right;
+    display: block;
+    position: absolute;
+    border-radius: 25px;
+    margin-right: 90px;
+    margin-bottom: 50px;
+    margin-top: 65px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.4);
+    margin-left: 300px;
+   
+
+}
+
+.playlist1 .heading-music
+{
+    
+    display: block;
+    font-size: 20px;
+    font-style: italic;
+    opacity: 0.7;
+    
+    width: 100%;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
+.playlist1 .content-music
+{
+    display: block;
+    font-size: 15px;
+    font-style: italic;
+    opacity: 0.7;
+    text-align: center;
+    justify-content: center;
+    margin-top: 8px;
+    line-height: 1.5;
+    width: 58%;
+    float: right;
+    white-space: normal;
+    padding-right: 250px;
+    letter-spacing: 0.4px;
+}
+
+.playlist1> .ul-music
+{
+    width: 25%;
+    margin-left: 300px;
+    
+    display: block;
+    float: left;
+    margin-top: 60px;
+    font-size: 20px;
+    font-style: oblique;
+    font-weight: 500;
+    opacity: 0.7;
+    list-style: none;
+    
+}
+
+.playlist1> .ul-music 
+{
+    font-size: 20px;
+    margin-top: 40px;
+   
+    
+}
+
+.playlist1 .listmusic2
+{
+    position: absolute;
+    width: 40%;
+    margin-top: 70px;
+    display: block;
+    text-align: justify;
+    margin-left: 435px;
+    
+    
+
+}
+
+.playlist1 .listmusic2 > li
+{
+    list-style: none;
+    letter-spacing: 1.5px;
+    line-height: 2.5;
+    opacity: 0.7;
+}
+
+.iconmusic9
+{
+    font-size: 400px;
+    margin-left: 150px;
+    opacity: 0.6;
+    margin-top: 30px;
+    
+}
+
+
+
+.song-name, .artist
+{
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.song-name
+{
+    font-size: 30px;
+    font-weight: 900px;
+    margin-bottom: 10px;
+    margin-top: 40px;
+}
+
+.artist
+{
+    font-size: 19px;
+    font-weight: 400px;
+
+}
+
+.box-dis
+{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    position: relative;
+    display: block;
+    margin: 40px auto;
+    box-shadow: 0 0 0 5px white;
+    background: url(./NenDiaNhac/nuna.jpg) no-repeat top left;
+    background-size: cover;
+    animation: rotate 20s linear infinite;
+    animation-play-state: paused;
+    
+}
+
+.box-dis.play{
+    animation-play-state: running;
+}
+
+.box-dis:before
+{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+
+
+.music-slider
+{
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+.seek-bar
+{
+    width: 75%;
+    height: 5px;
+    border-radius: 10px;
+    background: white;
+    cursor: pointer;
+    overflow: hidden;
+    display: block;
+    margin-left: 62px;
+    margin-bottom: 20px;
+    -webkit-appearance: none;
+    
+   
+    
+}
+
+.seek-bar::-webkit-slider-thumb
+{
+    
+    width: 10px;
+    height: 10px;
+    background-color:rgb(84, 85, 84);
+    -webkit-appearance: none;
+    box-shadow: -400px 0 0 400px rgb(84, 85, 84);
+
+    
+}
+
+
+.current-time
+{
+    float: left;
+    margin-left: 70px;
+    font-size: 15px;
+    margin-top: -15px;
+
+}
+.music-time
+{
+    float: right;
+    margin-left: 5px;
+    font-size: 15px;
+    right: 0;
+    margin-top: -15px;
+    margin-right: 70px;
+
+}
+
+
+.control-btn
+{
+
+    width: 60%;
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-evenly;
+    margin: auto;
+    
+}
+
+
+.btn-playmusic
+{
+    position: relative;
+    border-radius: 50%;
+    background-color: rgb(238, 238, 223);
+    border: none;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    
+}
+
+.btn-playmusic span
+{
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translateY(-50%);
+    width: 10px;
+    height: 30px;
+    border-radius: 2px;
+    background-color: rgb(89, 118, 96);
+    transition: .5s;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+.btn-playmusic span:nth-child(2)
+{
+    left: 55%;
+    transform-origin: center;
+}
+
+.btn-playmusic.pause span:nth-child(2)
+{
+    transform: translateY(-50%) scaleY(0);
+}
+
+.btn-playmusic.pause span:nth-child(1)
+{
+    width: 35%;
+    left: 53%;
+    transform: translate(-50%,-50%);
+    border-radius: 0;
+    clip-path: polygon(0 0, 100% 50%, 100% 50%, 0% 100%);
+}
+
+.btn-playmusic.pause
+{
+    animation: pulse 5s linear infinite;
+
+}
+
+@keyframes pulse{
+    0%{
+        box-shadow: 0;
+    }
+    50%{
+        box-shadow: 0 0 0 5px rgba(224, 224, 224, 0.8);
+    }
+    100%{
+        box-shadow: 0 0 0 5px  rgba(224, 224, 224, 0.3);
+    }
+}
+
+.btn--1
+{
+    width: 40px;
+    height: 40px;
+    background-color: beige;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+    margin-top: 5px;
+
+}
+
+@keyframes rotate{
+    0%{
+        transform: rotate(0);
+    }
+
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+
+/* Music section */ 
 
 .modal
 {
