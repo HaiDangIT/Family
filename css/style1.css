@@ -693,11 +693,11 @@ img{
 
 .musical
 {
-    width: 100%;
-    background: url(./Slider/wallhaven-wevq5q.jpg) no-repeat top left;
-    background-size: cover;
-    height: 855px;
+
     position: relative;
+    padding-top: 50%;
+    background: url("./Slider/wallhaven-wevq5q.jpg") top center / cover no-repeat;
+    background-size: 100% 100%;
     border: 5px solid rgba(254, 246, 228, 0.6);
     
     
@@ -705,155 +705,172 @@ img{
 
 .musical .nen-music
 {
-    width: 90%;
     height: 680px;
     background-color: rgba(98, 141, 130);
     display: block;
     position: absolute;
-    margin-left: 98px;
-    margin-top: 82.5px;
-    
-    box-sizing: border-box;
-    border-radius: 35px;
-    text-align: center;
-    border: 2px dashed whitesmoke;
+    background-color: rgb(98, 141, 130);
+    width: 90%;
+    height: 80%;
+    bottom: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 10%;
+    border-radius: 45px;  
 
-    
 }
 
-.musical .box-music
+.nen2-music
 {
-    width: 500px;
-    height: 550px;
-    background-color: #768c75;
-    border-radius: 25px;
-    margin-left: 100px;
-    box-sizing: border-box;
-    overflow: hidden;
-    color: white;
-    
     position: absolute;
-    margin-bottom: 50px;
-    margin-top: 65px;
-    z-index: 1;
-    box-shadow: 0 0 20px rgba(0,0,0,0.3);
-
-    
+    width: 85%;
+    height: 80%;
+    background-color: #FFFCEE;
+    top: 10%;
+    left: 7.5%;
+    border-radius: 45px;  
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.4);
 
 }
+
 
 .playlist1
 {
-    height: 550px;
-    width: 1300px;
+    width: 65%;
+    height: 100%;
     background-color: #FFFCEE;
-    float: right;
-    display: block;
     position: absolute;
-    border-radius: 25px;
-    margin-right: 90px;
-    margin-bottom: 50px;
-    margin-top: 65px;
-    box-shadow: 0 0 20px rgba(255, 255, 255, 0.4);
-    margin-left: 300px;
-   
-
+    right: 0;
+    border-top-right-radius: 45px;
+    border-bottom-right-radius: 45px;
+    
+ 
 }
 
 .playlist1 .heading-music
 {
-    
-    display: block;
-    font-size: 20px;
-    font-style: italic;
-    opacity: 0.7;
-    
+    text-align: center;
     width: 100%;
-    margin-left: 150px;
-    margin-top: 20px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-size: 22px;
+    font-style: italic;
+    opacity: 0.8;
+    justify-content: center;
+   
+    
 }
 
 .playlist1 .content-music
 {
-    display: block;
-    font-size: 15px;
+    font-size: 16px;
     font-style: italic;
     opacity: 0.7;
     text-align: center;
     justify-content: center;
     margin-top: 8px;
     line-height: 1.5;
-    width: 58%;
-    float: right;
+    display: block;
+    word-wrap: break-word;
+    padding-left: 20%;
+    padding-right: 20%;
     white-space: normal;
-    padding-right: 250px;
+    width: 100%;
     letter-spacing: 0.4px;
+    
+
 }
 
 .playlist1> .ul-music
 {
-    width: 25%;
-    margin-left: 300px;
-    
-    display: block;
-    float: left;
-    margin-top: 60px;
-    font-size: 20px;
-    font-style: oblique;
-    font-weight: 500;
-    opacity: 0.7;
-    list-style: none;
-    
+  
+   width: 100%;
+   display: block;
+   padding-left: 13%;
+   padding-top: 5%;
+   font-size: 24px;
+   font-style: italic;
+   opacity: 0.8;
+
+
 }
 
-.playlist1> .ul-music 
+
+.playlist1 .limusic123
 {
-    font-size: 20px;
-    margin-top: 40px;
+ 
+    width: 100%;
+    list-style: none;
+    line-height: 2.5;
+    font-size: 19px;
+    letter-spacing: 1.8px;
+    opacity: 0.7;
+    display: inline-block;
+    height: auto;
+    max-height: 80vh; 
+    overflow-y: auto;
+    text-align: justify;
+    justify-content: center;
+    font-style: normal;
    
     
-}
-
-.playlist1 .listmusic2
-{
-    position: absolute;
-    width: 40%;
-    margin-top: 70px;
-    display: block;
-    text-align: justify;
-    margin-left: 435px;
     
-    
-
 }
 
-.playlist1 .listmusic2 > li
-{
-    list-style: none;
-    letter-spacing: 1.5px;
-    line-height: 2.5;
-    opacity: 0.7;
-}
 
 .iconmusic9
 {
-    font-size: 400px;
-    margin-left: 150px;
+    width: 50%;
     opacity: 0.6;
-    margin-top: 30px;
+    left: 55%;
+    font-size: 400px;
+    top: -400px;
+    position: relative;
     
+    
+}
+
+/* .nen3-music
+{
+    position: absolute;
+    width: 35%;
+    height: 100%;
+    background-color: #768c75;
+    left: 0;
+    box-shadow: 0 0 50px rgba(0,0,0,0.4);
+    display: inline-block;
+    border-radius: 45px;  
+
+} */
+
+.musical .box-music
+{
+    position: absolute;
+    width: 35%;
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+    background-color: #768c75;
+    display: inline-block;
+    border-radius: 45px; 
+    box-shadow: 0 0 50px rgba(0,0,0,0.4);
+
 }
 
 
 
 .song-name, .artist
 {
+    width: 100%;
     text-align: center;
     text-transform: capitalize;
+  
+    
 }
 
 .song-name
 {
+    position: relative;
     font-size: 30px;
     font-weight: 900px;
     margin-bottom: 10px;
@@ -862,24 +879,32 @@ img{
 
 .artist
 {
+    position: relative;
     font-size: 19px;
     font-weight: 400px;
+   
 
 }
 
 .box-dis
 {
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
     border-radius: 50%;
     position: relative;
     display: block;
-    margin: 40px auto;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    margin-left: auto;
+    margin-right: auto;
     box-shadow: 0 0 0 5px white;
     background: url(./NenDiaNhac/nuna.jpg) no-repeat top left;
     background-size: cover;
     animation: rotate 20s linear infinite;
     animation-play-state: paused;
+    
+    
+
     
 }
 
@@ -890,7 +915,7 @@ img{
 .box-dis:before
 {
     content: '';
-    position: absolute;
+    position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
@@ -921,6 +946,7 @@ img{
     margin-left: 62px;
     margin-bottom: 20px;
     -webkit-appearance: none;
+    position: relative;
     
    
     
@@ -945,6 +971,7 @@ img{
     margin-left: 70px;
     font-size: 15px;
     margin-top: -15px;
+    position: relative;
 
 }
 .music-time
