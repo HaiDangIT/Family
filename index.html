@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Family-LND</title>
-    <link rel="stylesheet" href="./css/style1.css">
     <link rel="stylesheet" href="./font/fontawesome-free-6.5.1-web/fontawesome-free-6.5.1-web/css/all.css">
     <link rel="icon" href="./logo/LND-removebg-preview.png" type="image/x-icon" />
-
+    <link rel="stylesheet" href="./css/style1.css">
+    <link rel="stylesheet" href="./css/responsive.css">
 
    
 
@@ -34,11 +34,10 @@
                 <li><a href="#music123">Music <i class="nav-muiten fa-solid fa-music"></i></a></li>
                 <li><a href="#lienhe">Contact <i class="fa-regular fa-address-card"></i></a></li>
                 <li>
-                    <a id="idmore" href="#end">
+                    <a id="idmore" href="#">
                         More
                         <i class="nav-muiten fa-solid fa-circle-arrow-down"></i>
                     </a>
-                    <div></div>
                     <ul class="subnav">
                         <li><a href="#">HuongDan <i class="nav-muiten fa-solid fa-signs-post"></i></a></li>
                         <li><a href="#">HoTro <i class="nav-muiten fa-solid fa-handshake-angle"></i></a></li>
@@ -59,6 +58,9 @@
 
                         <i class="search-icon fa-solid fa-magnifying-glass"></i>
 
+                    </div>
+                    <div id="mobile-menu" class="mobile-menu-btn">
+                        <i class="menu-icon fa-solid fa-bars"></i>
                     </div>
 
             <!-- End Search Button -->
@@ -88,10 +90,10 @@
                     
                     <div class="member-list">
                         
-                        <div class="member-item">
+                        <div class="member-item-mobile member-item">
                             
                             <p class="member-name">HaiDang 
-                                <img class="member-img" src="./img/admin/admin.jpg" alt="HaiDang">
+                                <img class="member-img" src="./img/admin/admin.jpg"  alt="HaiDang">
                             </p>
                         
                         </div>
@@ -121,7 +123,7 @@
                 <!-- /* Places section */ -->  
                     <div class="row places-list">
                         <div class="col places-item" >
-                            <img class="place-img" src="./places/place1.jpg" alt="Museum"  height="300px" width="200px">
+                            <img class="place-img" src="./places/place1.jpg" alt="Museum"  height="350px" width="200px">
                             <div class="place-body">
                                 <h3 class="place-heading">Flower</h3>
                                 <p class="place-time">Fri 22 Apr 2024</p>
@@ -133,7 +135,7 @@
                         </div>
         
                         <div class="col places-item">
-                            <img class="place-img" src="./places/place2.jpg" alt="Tree" height="300px" width="200px" >
+                            <img class="place-img" src="./places/place2.jpg" alt="Tree" height="350px" width="200px" >
                             <div class="place-body">
                                 <h3 class="place-heading">Tree</h3>
                                 <p class="place-time">Sun 24 Apr 2024</p>
@@ -145,7 +147,7 @@
                         </div>
         
                         <div class="col places-item">
-                            <img class="place-img" src="./places/place3.jpg" alt="City" height="300px" width="200px" >
+                            <img class="place-img" src="./places/place3.jpg" alt="City" height="350px" width="200px" >
                             <div class="place-body">
                                 <h3 class="place-heading">City</h3>
                                 <p class="place-time">Thus 28 Apr 2024</p>
@@ -170,7 +172,7 @@
 
         <audio class="audio" src=""></audio>  
 <!-- container -->
-    <div id="music123" class="musical"> 
+    <!-- <div id="music123" class="musical"> 
         <div class="nen-music">  
             <div class="nen2-music">
                 <div class="playlist1">
@@ -185,10 +187,10 @@
                         <li class="limusic123">6.Tinh Yeu Bi Lam Sao Vay?</li>
                         <li class="limusic123">7.No Love No Life</li>
                         <li class="limusic123">8.Dau Cung Thay Em</li>
-                    </div> 
-                <i i class="iconmusic9 fa-solid fa-headphones-simple"></i>
+                    </div>  -->
+                <!-- <i i class="iconmusic9 fa-solid fa-headphones-simple"></i> -->
                     
-            </div>
+            <!-- </div>
             <div class="box-music">
                         <h1 class="song-name">song name 1</h1>
                         <p class="artist">artist 1</p>
@@ -212,7 +214,8 @@
                     
             </div>
         </div>
-    </div>
+        <div class="clear"></div>
+    </div> -->
         
 
         <script src="song.js"></script>
@@ -236,19 +239,19 @@
                   
 
                     <div class="row2 contact-content">
-                        <div class="col-2 col-half contact-info">
+                        <div class="s-col-ful col-2 col-half contact-info">
                             <p><i class="fa-solid fa-location-dot"></i> VietNam, HCM</p>
                             <p><i class="fa-solid fa-phone"></i> Phone: +84 818109181</i></p>
                             <p><i class="fa-solid fa-envelope"></i> Email: ledang3916@gmail.com</p>
                         </div>
 
-                        <div class="contact-form col-2 col-half">
+                        <div class=" s-col-ful contact-form col-2 col-half">
                                 <form action="">
                                     <div class="row2">
-                                         <div class="col-2 col-half">
+                                         <div class="col-2 col-half s-col-ful">
                                              <input type="text" name="" placeholder="Name" required id="yes1" class="form-control">
                                          </div>
-                                         <div class="col-2 col-half">
+                                         <div class="col-2 col-half s-col-ful s-mt-8">
                                             <input type="email" name="" placeholder="Email" required id="yes2" class="form-control">
                                         </div>
                                         
@@ -397,6 +400,42 @@
     modalcontainer.addEventListener('click', function(event){
         event.stopPropagation()
     })
+
+</script>
+
+<script>
+    var header = document.getElementById('header');
+    var mobilmenu = document.getElementById('mobile-menu');
+    var headerHeight = header.clientHeight;
+
+    // dong mo menu
+    mobilmenu.onclick = function() {
+        var isClosed = header.clientHeight === headerHeight;
+        if(isClosed)
+        {
+            header.style.height = 'auto';
+        }else{
+            header.style.height = null;
+        }
+    }
+    // tu dong dong
+    var menuItems = document.querySelectorAll('#nav li a[href*="#"]');
+    for (var i =0; i < menuItems.length; i++)
+    {
+        var menuItem = menuItems[i];
+
+
+        menuItem.onclick = function(event) {
+        var isParentMenu = this.nextElementSibling && this.nextElementSibling.classList.contains('subnav');
+            if(isParentMenu){
+                event.preventDefault();
+            }else
+            {
+            header.style.height = null;
+        }
+    }
+}
+
 
 </script>
 

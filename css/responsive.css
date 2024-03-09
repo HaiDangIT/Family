@@ -1,0 +1,91 @@
+/* Mobile */
+@media (max-width: 740px)
+{
+    #nav
+    {
+        display: block;
+    }
+    #nav li
+    {
+        display: block;
+        height: auto;
+    }
+
+    #nav > li:first-child{
+        display: inline-block;
+    }
+
+    #nav .subnav
+    {
+        position: initial;
+        background-color: #3ca3a6;
+    }
+    #nav .subnav a
+    {
+        color: white;
+        padding: 5px 41px;
+    }
+
+    #nav > li:hover > a
+{
+    color: white;
+    
+}
+
+
+    #header
+    {
+        overflow: hidden;
+    }
+
+    #header .mobile-menu-btn
+    {
+        display: block;
+    }
+    #header .search-button
+    {
+        display: none;
+    }
+
+    .content .member-item-mobile
+    {
+        
+        width: 100%;
+    }
+
+    .content .member-img
+    {
+        margin-top: 30px;
+        width: 60%;
+    }
+    .places-list
+    {
+        margin-top: 32px;
+    }
+
+    .places-list .places-item
+    {
+        width: 100%;
+        margin-top: 24px;
+    }
+
+    .s-mt-8
+    {
+        margin-top: 8px !important;
+    }
+
+    .s-col-ful
+    {
+        width: 100% !important;
+    }
+
+   
+    
+}
+
+
+/* Tablet */
+@mediae (max-width: 740px)
+{
+    
+}
