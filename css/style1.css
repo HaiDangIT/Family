@@ -85,13 +85,13 @@ padding-right: 8px;
 .contact-content
 {
     margin-top: 48px;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
 }
 
 .contact-info
 {
     font-size: 18px;
-    line-height: 1.4;
+    line-height: 1.6;
     text-align: justify;
     margin-bottom: 10px;
     
@@ -105,7 +105,7 @@ padding-right: 8px;
 
 .contact-form
 {
-    font-size: 15px;
+    font-size: 20px;
     text-align: justify;
 }
 
@@ -116,6 +116,8 @@ padding-right: 8px;
     width: 100%;
     border-radius: 5px;
     outline: none;
+    
+
     
 }
 
@@ -456,7 +458,7 @@ img{
 
 #content .section-sub-heading
 {
-    margin-top: 25px;
+    margin-top: 20px;
     font-style: italic;
     font-size: 15px;
     opacity: 0.6;
@@ -698,6 +700,17 @@ img{
 .footer .copyright a
 {
     color: rgba(0,0,0,0.5);
+}
+
+.contact-icon
+{
+    
+    color:#009688;
+}
+
+.contact-icon:hover
+{
+    opacity: 0.4;
 }
 
 /* Map section */
@@ -951,7 +964,7 @@ img{
     display: block;
     margin-left: 62px;
     margin-bottom: 20px;
-    -webkit-appearance: none;
+    /* -webkit-appearance: none; */
     position: relative;
     
    

@@ -79,13 +79,68 @@
         width: 100% !important;
     }
 
-   
+    .contact-content
+    {
+        margin-top: 32px;
+    }
+
+    .contact-info
+    {
+        line-height: 1.7;
+        margin-top: 20px;
+    }
+    .contact-form
+    {
+        margin-top: 32px;
+    }
+
+    .contact-form .place-btn
+    {
+        width: 100%;
+        border: 1px none;
+    }
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1024px)
+{
+    #header > #nav > li > a
+    {
+        padding: 0 15px;
+    }
+    .contact-info
+    {
+        line-height: 2;
+    }
+
+
+    .contact-form .form-control
+    {
+        height: 45px;
+        font-size: 15px;
+
+    }
+    .contact-form .place-btn
+    {
+        height: 50px;
+        width: 90px;
+    }
+
+    
     
 }
 
-
-/* Tablet */
-@mediae (max-width: 740px)
+/* Tablet and Mobile */
+@media (max-width: 1024px)
 {
-    
+    .footer .social-list a
+    {
+        margin: 0 8px;
+    }
+
+    .footer .copyright
+    {
+        padding: 12px 0;
+        display: inline-block;
+    }
 }
