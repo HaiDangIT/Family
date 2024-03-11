@@ -737,7 +737,7 @@ img{
 
     margin-top: 40px;
     margin-bottom: 40px;
-    width: 50%;
+    width: 45%;
     height: 100%;
     background-color: #FFFCEE;
     border-radius: 45px;  
@@ -771,15 +771,14 @@ img{
     font-style: italic;
     opacity: 0.6;
     text-align:left;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
     font-size: 18px;
     letter-spacing: 2px;
     line-height: 1.2;   
     margin-bottom: 10px;
      
 }
-
 
 .heading-music
 {
@@ -796,7 +795,7 @@ img{
 {
     
     float: left;
-    width: 40%;
+    width: 45%;
     height: 100%;
     background-color: #768c75;
     display: inline-block;
