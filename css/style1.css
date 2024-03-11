@@ -720,158 +720,95 @@ img{
 
 .musical
 {
-
-    position: relative;
-    padding-top: 50%;
-    background: url("./Slider/wallhaven-wevq5q.jpg") top center / cover no-repeat;
-    background-size: 100% 100%;
+    background: #5F7C7C;
     border: 5px solid rgba(254, 246, 228, 0.6);
-
-    
-    
-}
-
-.musical .nen-music
-{
-    height: 680px;
-    background-color: rgba(98, 141, 130);
-    display: block;
-    position: absolute;
-    background-color: rgb(98, 141, 130);
-    width: 90%;
-    height: 80%;
-    bottom: 50%;
-    left: 50%;
-    transform: translateX(-50%);
-    top: 10%;
-    border-radius: 45px; 
-    
-
-}
-
-.nen2-music
-{
-    position: absolute;
-    width: 85%;
-    height: 80%;
-    background-color: #FFFCEE;
-    top: 10%;
-    left: 7.5%;
-    border-radius: 45px;  
-    box-shadow: 0 0 20px rgba(255, 255, 255, 0.4);
-
-}
-
-
-.playlist1
-{
-    width: 65%;
     height: 100%;
-    background-color: #FFFCEE;
-    position: absolute;
-    right: 0;
-    border-top-right-radius: 45px;
-    border-bottom-right-radius: 45px;
-    
  
 }
 
-.playlist1 .heading-music
+.music-option
 {
-    text-align: center;
-    width: 100%;
-    margin-top: 25px;
-    margin-bottom: 10px;
-    font-size: 22px;
+    width: 80% !important;
+}
+
+
+.nen2-music
+{
+    position: relative;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 50%;
+    height: 100%;
+    background-color: #FFFCEE;
+    border-radius: 45px;  
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.4);
+    display: inline-block;
+    float: right;
+    
+
+}
+
+.nen2-music > h1
+{
     font-style: italic;
     opacity: 0.8;
-    justify-content: center;
-   
-    
+    margin-top: 30px !important;
 }
 
-.playlist1 .content-music
+.nen2-music > .limusic123
 {
-    font-size: 16px;
     font-style: italic;
-    opacity: 0.7;
-    text-align: center;
-    justify-content: center;
-    margin-top: 8px;
-    line-height: 1.5;
-    display: block;
-    word-wrap: break-word;
-    padding-left: 20%;
-    padding-right: 20%;
-    white-space: normal;
-    width: 100%;
-    letter-spacing: 0.4px;
-    
-
-}
-
-.playlist1> .ul-music
-{
-  
-   width: 100%;
-   display: block;
-   padding-left: 13%;
-   padding-top: 5%;
-   font-size: 24px;
-   font-style: italic;
-   opacity: 0.8;
-    
-
-
-}
-
-
-.playlist1 .limusic123
-{
-    
-    width: 100%;
-    list-style: none;
-    line-height: 2;
-    font-size: 19px;
-    letter-spacing: 2px;
-    opacity: 0.7;
-    display: inline-block;
-    height: auto;
-    max-height: 80vh; 
-    overflow-y: auto;
-    text-align: justify;
-    justify-content: center;
-    font-style: normal;
-   
-    
-    
-}
-
-
-.iconmusic9
-{
-    width: 50%;
     opacity: 0.6;
-    left: 55%;
-    font-size: 400px;
-    top: -400px;
-    position: relative;
-    
-    
+    text-align:left;
+    margin-left: 10%;
+    font-size: 18px;
+    letter-spacing: 2px;
+    line-height: 1.2;   
+    margin-bottom: 10px;
+     
 }
 
 
-.musical .box-music
+.heading-music
 {
-    position: absolute;
-    width: 35%;
+    color: white;
+}
+
+.content-music
+{
+    color: white;
+}
+
+.nen2-music h1
+{
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-top: 40px;
+
+}
+
+.nen2-music p
+{
+    font-size: 15px;
+    line-height: 2;
+    letter-spacing: 0.4px;
+    left: 0;
+   
+
+}
+
+.box-music
+{
+    position: relative;
+    float: left;
+    width: 40%;
     height: 100%;
-    text-align: center;
-    justify-content: center;
     background-color: #768c75;
     display: inline-block;
     border-radius: 45px; 
     box-shadow: 0 0 50px rgba(0,0,0,0.4);
+    margin-top: 40px;
+    margin-bottom: 40px;
 
 }
 
@@ -888,16 +825,14 @@ img{
 
 .song-name
 {
-    position: relative;
     font-size: 30px;
-    font-weight: 900px;
     margin-bottom: 10px;
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
 .artist
 {
-    position: relative;
+
     font-size: 19px;
     font-weight: 400px;
    
@@ -909,10 +844,9 @@ img{
     width: 250px;
     height: 250px;
     border-radius: 50%;
-    position: relative;
     display: block;
-    margin-top: 40px;
-    margin-bottom: 60px;
+    margin-top: 30px;
+    margin-bottom: 40px;
     margin-left: auto;
     margin-right: auto;
     box-shadow: 0 0 0 5px white;
@@ -955,17 +889,18 @@ img{
 
 .seek-bar
 {
-    width: 75%;
+    width: 80%;
     height: 5px;
     border-radius: 10px;
     background: white;
     cursor: pointer;
     overflow: hidden;
     display: block;
-    margin-left: 62px;
+    margin-left: 10%;
+    margin-right: 10%;
     margin-bottom: 20px;
     /* -webkit-appearance: none; */
-    position: relative;
+    justify-content: center;
     
    
     
@@ -1013,6 +948,7 @@ img{
     margin-top: 20px;
     justify-content: space-evenly;
     margin: auto;
+    margin-bottom: 30px;
     
 }
 

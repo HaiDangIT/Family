@@ -48,4 +48,47 @@ let songs= [
         artist:'YoungCaptain',
         image:'css/NenDiaNhac/noidaucungthaye.jpg'
     },
+    {
+        name: 'Hen em duoi anh trang',
+        path:'music/HURRYKNG, HIEUTHUHAI, MANBO _ Hẹn Gặp Em Dưới Ánh Trăng _ Official Video.mp3',
+        artist:'HIEUTHUHAI,HURRYKNG,MANBO',
+        image:'css/NenDiaNhac/henemduoianhtrang.jpg'
+    },
+    {
+        name: 'Chung ta cua tuong lai',
+        path:'music/SƠN-TÙNG-M-TP-_-CHÚNG-TA-CỦA-TƯƠNG-LAI-_-OFFICIAL-MUSIC-VIDEO_4.mp3',
+        artist:'Son Tung MTP',
+        image:'css/NenDiaNhac/chungtacuatuonglai.jpg'
+    },
+    {
+        name: 'Thanh pho cua nhung nguoi co don',
+        path:'music/thành phố chứa những người dưng cô đơn _ iMAZE x ngtrinh (Official Music Video).mp3',
+        artist:'iMAZE x ngtrinh',
+        image:'css/NenDiaNhac/thanhphocuanhungnguoicodon.jpg'
+    },
+    {
+        name: 'Doi',
+        path:'music/ĐỢI - 52Hz (prod. RIO) _ Official Lyric Video.mp3',
+        artist:'52hz',
+        image:'css/NenDiaNhac/52hz.jpg'
+    },
+    {
+        name: 'Haru Haru',
+        path:'music/BIGBANG-HARU-HARU_하루하루_-M_V.mp3',
+        artist:'BIGBANG',
+        image:'css/NenDiaNhac/haruharu.jpg'
+    },
+    {
+        name: 'One Last Time x 珊瑚海',
+        path:'music/One Last Time x 珊瑚海.mp3',
+        artist:'TikTok ver',
+        image:'css/NenDiaNhac/maxresdefault.jpg'
+    },
+    {
+        name: 'Ngam sao ma chang co nhau',
+        path:'music/ngắm sao mà chẳng có nhau _ iMAZE x qt. x thảo choách (Official Music Video).mp3',
+        artist:'iMAZE',
+        image:'css/NenDiaNhac/ngamsaomachangconha.jpg'
+    },
+    
 ];
