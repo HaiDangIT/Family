@@ -88,7 +88,7 @@ let songs= [
         name: 'Ngam sao ma chang co nhau',
         path:'music/ngắm sao mà chẳng có nhau _ iMAZE x qt. x thảo choách (Official Music Video).mp3',
         artist:'iMAZE',
-        image:'css/NenDiaNhac/ngamsaomachangconha.jpg'
+        image:'css/NenDiaNhac/ngamsaomachangconhau.jpg'
     },
     
 ];

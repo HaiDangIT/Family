@@ -721,20 +721,20 @@ img{
 .musical
 {
     background: #5F7C7C;
-    border: 5px solid rgba(254, 246, 228, 0.6);
+    border: 1px solid rgba(254, 246, 228, 0.6);
     height: 100%;
  
 }
 
 .music-option
 {
-    width: 80% !important;
+    width: 100% !important;
 }
 
 
 .nen2-music
 {
-    position: relative;
+
     margin-top: 40px;
     margin-bottom: 40px;
     width: 50%;
@@ -745,17 +745,26 @@ img{
     display: inline-block;
     float: right;
     
+    
 
 }
 
-.nen2-music > h1
+.music-content-css
+    {
+        margin-bottom: 20px;
+        
+    }
+
+
+.music-content-css > h1
 {
     font-style: italic;
     opacity: 0.8;
-    margin-top: 30px !important;
+    margin-top: 30px !important;    
+   
 }
 
-.nen2-music > .limusic123
+.music-content-css > .limusic123
 {
     font-style: italic;
     opacity: 0.6;
@@ -799,7 +808,7 @@ img{
 
 .box-music
 {
-    position: relative;
+    
     float: left;
     width: 40%;
     height: 100%;
@@ -899,7 +908,7 @@ img{
     margin-left: 10%;
     margin-right: 10%;
     margin-bottom: 20px;
-    /* -webkit-appearance: none; */
+    appearance: none;
     justify-content: center;
     
    
@@ -912,7 +921,7 @@ img{
     width: 10px;
     height: 10px;
     background-color:rgb(84, 85, 84);
-    -webkit-appearance: none;
+    appearance: none;
     box-shadow: -400px 0 0 400px rgb(84, 85, 84);
 
     

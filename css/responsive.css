@@ -126,8 +126,27 @@
         width: 90px;
     }
 
-    
-    
+    .box-dis
+    {
+        width: 150px;
+        height: 150px;
+        background: url(./NenDiaNhac/nuna.jpg) no-repeat top left;
+        background-size: cover;
+    }
+
+}
+
+/* PC */
+@media (min-width: 1024px)
+{
+    .nen2-music
+    {
+        margin-right: 2.5%;
+    }
+    .box-music
+    {
+        margin-left: 2.5%;
+    }
 }
 
 /* Tablet and Mobile */
@@ -147,11 +166,14 @@
     .box-music
     {
         width: 100%;
+        margin-top: 70px;
+        
     }
 
     .nen2-music
     {
         width: 100%;
+        margin-bottom: 70px;
 
     }
 
