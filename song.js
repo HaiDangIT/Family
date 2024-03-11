@@ -64,7 +64,7 @@ let songs= [
         name: 'Thanh pho cua nhung nguoi co don',
         path:'music/thành phố chứa những người dưng cô đơn _ iMAZE x ngtrinh (Official Music Video).mp3',
         artist:'iMAZE x ngtrinh',
-        image:'css/NenDiaNhac/thanhphocuanhungnguoicodon.jpg'
+        image:'css/NenDiaNhac/thanhphochuanhungnguoicodon.jpg'
     },
     {
         name: 'Doi',

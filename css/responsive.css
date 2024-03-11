@@ -126,13 +126,7 @@
         width: 90px;
     }
 
-    .box-dis
-    {
-        width: 150px;
-        height: 150px;
-        background: url(./NenDiaNhac/nuna.jpg) no-repeat top left;
-        background-size: cover;
-    }
+    
 
 }
 
@@ -163,6 +157,8 @@
         display: inline-block;
     }
 
+    
+
     .box-music
     {
         width: 100%;
@@ -175,6 +171,26 @@
         width: 100%;
         margin-bottom: 70px;
 
+    }
+
+    .music-content-css > h1
+    {
+        font-size: 20px;
+    }
+
+    .music-content-css > .limusic123
+    {
+        font-size: 16px;
+    }
+
+    .song-name
+    {
+        font-size: 20px;
+    }
+
+    .artist
+    {
+        font-size: 16px;
     }
 
     

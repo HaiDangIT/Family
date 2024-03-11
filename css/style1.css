@@ -759,17 +759,20 @@ img{
 .music-content-css > h1
 {
     font-style: italic;
-    opacity: 0.8;
-    margin-top: 30px !important;    
+    opacity: 0.7;
+    margin-top: 30px !important;  
+    font-size: 30px;  
    
 }
 
 .music-content-css > .limusic123
 {
+    width: 80%;
     font-style: italic;
     opacity: 0.6;
     text-align:left;
-    margin-left: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
     font-size: 18px;
     letter-spacing: 2px;
     line-height: 1.2;   
@@ -788,23 +791,6 @@ img{
     color: white;
 }
 
-.nen2-music h1
-{
-    font-size: 30px;
-    margin-bottom: 10px;
-    margin-top: 40px;
-
-}
-
-.nen2-music p
-{
-    font-size: 15px;
-    line-height: 2;
-    letter-spacing: 0.4px;
-    left: 0;
-   
-
-}
 
 .box-music
 {
@@ -957,7 +943,7 @@ img{
     margin-top: 20px;
     justify-content: space-evenly;
     margin: auto;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     
 }
 
