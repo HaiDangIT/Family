@@ -1,5 +1,5 @@
 /* Mobile */
-@media (max-width: 740px)
+@media (max-width: 46.25em)
 {
     #nav
     {
@@ -91,7 +91,7 @@
     }
     .contact-form
     {
-        margin-top: 32px;
+        margin-top: 2em;
     }
 
     .contact-form .place-btn
@@ -102,7 +102,7 @@
 }
 
 /* Tablet */
-@media (min-width: 740px) and (max-width: 1024px)
+@media (min-width: 46.3125em) and (max-width: 64em)
 {
     #header > #nav > li > a
     {
@@ -131,7 +131,7 @@
 }
 
 /* PC */
-@media (min-width: 1024px)
+@media (min-width: 64em)
 {
     .nen2-music
     {
@@ -144,7 +144,7 @@
 }
 
 /* Tablet and Mobile */
-@media (max-width: 1024px)
+@media (max-width: 64em)
 {
     .footer .social-list a
     {

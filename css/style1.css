@@ -413,6 +413,7 @@ img{
 #slider .text-description{
     font-size: 24px;
     margin-top: 12px;
+    text-shadow: 0 0 1px black;
 
 }
 /* About section */
@@ -761,7 +762,7 @@ img{
     font-style: italic;
     opacity: 0.7;
     margin-top: 30px !important;  
-    font-size: 30px;  
+    font-size: 25px;  
    
 }
 
@@ -819,7 +820,7 @@ img{
 
 .song-name
 {
-    font-size: 30px;
+    font-size: 25px;
     margin-bottom: 10px;
     margin-top: 30px;
 }
@@ -827,7 +828,7 @@ img{
 .artist
 {
 
-    font-size: 19px;
+    font-size: 16px;
     font-weight: 400px;
    
 

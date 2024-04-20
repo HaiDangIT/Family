@@ -90,5 +90,10 @@ let songs= [
         artist:'iMAZE',
         image:'css/NenDiaNhac/ngamsaomachangconhau.jpg'
     },
-    
+    {
+        name: 'Music core',
+        path:'music/MusicCore.mp3',
+        artist:'Muti',
+        image:'css/NenDiaNhac/musiccore.jpg'
+    },
 ];
